@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+publish/
+
+# Installer output
+installer_output/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# NuGet
+*.nupkg
+packages/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Unity
+AutoRendering/Library/
+AutoRendering/Temp/
+AutoRendering/Logs/
+AutoRendering/UserSettings/
+AutoRendering/MemoryCaptures/
+AutoRendering/Recordings/
+AutoRendering/Assets/Plugins/
+*.cginc
+*.pidb
+*.unityproj
+*.sln
+*.csproj
+!AutoRenderingAgent/*.csproj
+!AutoRenderingService/*.csproj
+!AutoRenderingAgentConfig/*.csproj
