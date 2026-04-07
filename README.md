@@ -2,6 +2,10 @@
 
 複数のレンダリングPCに対して、Unityシーンの自動レンダリングをリモートで指示・管理するシステムです。
 
+## ダウンロード
+
+[**AutoRenderingSystemSetup.exe** (最新版)](https://github.com/yamamotoryo0212/UnityAutoRenderingSystem/releases/latest/download/AutoRenderingSystemSetup.exe)
+
 ## 概要
 
 ```
@@ -69,6 +73,28 @@ dotnet publish AutoRenderingService -c Release -r win-x64 --self-contained -o pu
 
 # Agent Config
 dotnet publish AutoRenderingAgentConfig -c Release -r win-x64 --self-contained -o publish/AgentConfig
+```
+
+### Unityパッケージ（UPM）
+
+Unity の Package Manager から Git URL でインストールできます。
+
+1. Unity で **Window > Package Manager** を開く
+2. 左上の **+** > **Add package from git URL...** を選択
+3. 以下のURLを入力:
+
+```
+https://github.com/yamamotoryo0212/UnityAutoRenderingSystem.git?path=AutoRendering/Assets/AutoRendering
+```
+
+または `Packages/manifest.json` に直接追加:
+
+```json
+{
+  "dependencies": {
+    "com.yamamotoryo.autorendering": "https://github.com/yamamotoryo0212/UnityAutoRenderingSystem.git?path=AutoRendering/Assets/AutoRendering"
+  }
+}
 ```
 
 ## セットアップ

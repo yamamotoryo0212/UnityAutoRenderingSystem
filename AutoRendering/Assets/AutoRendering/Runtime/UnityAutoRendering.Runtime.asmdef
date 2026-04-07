@@ -1,0 +1,17 @@
+{
+  "name": "UnityAutoRendering.Runtime",
+  "rootNamespace": "UnityAutoRendering",
+  "references": [
+    "Unity.Timeline",
+    "Unity.Recorder"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

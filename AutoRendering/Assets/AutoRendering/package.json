@@ -1,0 +1,20 @@
+{
+  "name": "com.yamamotoryo.autorendering",
+  "version": "1.0.0",
+  "displayName": "Auto Rendering",
+  "description": "Automated Unity scene rendering system using Timeline and Recorder.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.recorder": "4.0.3",
+    "com.unity.timeline": "1.7.7"
+  },
+  "keywords": [
+    "rendering",
+    "recorder",
+    "timeline",
+    "automation"
+  ],
+  "author": {
+    "name": "yamamotoryo"
+  }
+}
